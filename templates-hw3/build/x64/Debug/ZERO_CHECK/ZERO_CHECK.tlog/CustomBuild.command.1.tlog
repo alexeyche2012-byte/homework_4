@@ -1,0 +1,10 @@
+^C:\USERS\ASUS\HOMEWORK_4\TEMPLATES-HW3\BUILD\CMAKEFILES\CB0AEE89715C95BE47E1439A7714C5FB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Asus/homework_4/templates-hw3 -BC:/Users/Asus/homework_4/templates-hw3/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Asus/homework_4/templates-hw3/build/templates_hw3.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

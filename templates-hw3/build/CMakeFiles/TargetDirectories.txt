@@ -1,0 +1,3 @@
+C:/Users/Asus/homework_4/templates-hw3/build/CMakeFiles/templates_hw3.dir
+C:/Users/Asus/homework_4/templates-hw3/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Asus/homework_4/templates-hw3/build/CMakeFiles/ZERO_CHECK.dir
